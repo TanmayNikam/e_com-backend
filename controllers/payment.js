@@ -1,6 +1,5 @@
 require('dotenv').config()
 const User = require('../model/user')
-const Razorpay = require('razorpay')
 const crypto = require("crypto")
 const braintree=require("braintree")
 
